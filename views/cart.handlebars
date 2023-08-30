@@ -1,0 +1,22 @@
+<div>
+<h2>Cart</h2>
+</div>
+<div>
+    <table>
+        <thead>
+            <tr>
+            <th scope="col">id</th>
+            <th scope="col">Quantity</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            {{#each products}}
+            <tr>
+            <td><h5>{{_id}}</h5></td>
+            <td><h5>{{cantidad}}</h5></td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
